@@ -20,3 +20,9 @@
 p "Enter a number:"
 number = gets.chomp.is_i
 
+counter = 1
+
+while counter <= 10
+  p counter*number
+  counter = counter + 1
+end
