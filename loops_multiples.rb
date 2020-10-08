@@ -18,7 +18,7 @@
 # 20
 
 p "Enter a number:"
-number = gets.chomp.is_i
+number = gets.chomp.to_i
 
 counter = 1
 
