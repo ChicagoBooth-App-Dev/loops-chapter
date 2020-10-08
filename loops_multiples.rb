@@ -18,4 +18,5 @@
 # 20
 
 p "Enter a number:"
+number = gets.chomp.is_i
 
